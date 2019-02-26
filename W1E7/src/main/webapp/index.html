@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <h2>Update File to Database (multipart/form-data)</h2>
+    
+    <form method="post" action="FileUploadDBServlet" enctype="multipart/form-data">
+      <table border="1">
+        <tr>
+		  <td>First Name: </td>
+		  <td><input type="text" name="FirstName" size="50"/></td>
+		</tr>
+				
+		<tr>
+		  <td>Last Name: </td>
+		  <td><input type="text" name="LastName" size="50"/></td>
+		</tr>
+		<tr>
+		  <td>Portrait Photo: </td>
+		  <td><input type="file" name="Photo" size="50"/></td>
+		</tr>
+		
+		<tr>				
+		<td colspan="2">
+		  <input type="submit" value="Save">
+		  </td>
+		</tr>
+				
+		</table>
+     </form>
+  </body>
+</html>

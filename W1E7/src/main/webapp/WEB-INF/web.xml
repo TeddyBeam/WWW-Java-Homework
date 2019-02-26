@@ -6,13 +6,13 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-    <servlet-name>RegistrationForm</servlet-name>
-    <servlet-class>w1e4.RegistrationForm</servlet-class>
+  	<servlet-name>FileUploadDBServlet</servlet-name>
+  	<servlet-class>w1e7.FileUploadDBServlet</servlet-class>
   </servlet>
-
+  
   <servlet-mapping>
-    <servlet-name>RegistrationForm</servlet-name>
-    <url-pattern>/RegistrationForm</url-pattern>
+  	<servlet-name>FileUploadDBServlet</servlet-name>
+  	<url-pattern>/FileUploadDBServlet</url-pattern>
   </servlet-mapping>
   
 </web-app>
