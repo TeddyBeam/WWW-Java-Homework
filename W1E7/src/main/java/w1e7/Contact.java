@@ -4,8 +4,7 @@ public class Contact {
 	private int id;
 	private String firstName, lastName, photoPath;
 
-	public Contact(String firstName, String lastName, String photoPath)
-	{
+	public Contact(String firstName, String lastName, String photoPath) {
 		this(-1, firstName, lastName, photoPath);
 	}
 	
