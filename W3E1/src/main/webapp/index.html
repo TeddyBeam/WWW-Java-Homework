@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Lý Đông Cảnh">
+	<title>Bài 1 Chương 3</title>
+	
+	<style type="text/css">
+		.registration-form {
+			width: 40%;
+			height: 40%;
+			padding: 5px;
+			outline: 1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="RegistrationForm" class="registration-form" method="get">
+		First Name: <input type="text" name="first-name"><br>
+		Last Name: <input type="text" name="last-name"><br>
+		<hr>
+		
+		Date Of Birth: <input type="date" name="birthday">
+		<hr>
+		
+		Email: <input type="email" name="email">
+		<hr>
+		
+		Gender: 
+		Male <input type="radio" value="Male" name="gender">
+		Female <input type="radio" value="Female" name="gender">
+		<hr>
+		
+		Hobbies:
+		Drawing <input type="checkbox" value="Drawing" name="hobbies">
+		Singing <input type="checkbox" value="Singing" name="hobbies">
+		Dancing <input type="checkbox" value="Dancing" name="hobbies">
+		Sketching <input type="checkbox" value="Sketching" name="hobbies">
+		Other <input type="text" value="" name="hobbies">
+		<hr>
+		
+		<input type="submit" value="submit">
+	</form>
+</body>
+
+</html>
