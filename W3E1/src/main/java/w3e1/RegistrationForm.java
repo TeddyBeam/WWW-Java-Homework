@@ -25,7 +25,6 @@ public class RegistrationForm extends HttpServlet {
 		String gender = req.getParameter("gender");
 		String[] hobbies = req.getParameterValues("hobbies");
 		
-		System.out.println(birthdayString);
 		Date birthday = null;
 		try {
 			birthday = new SimpleDateFormat("yyyy-mm-dd").parse(birthdayString);
